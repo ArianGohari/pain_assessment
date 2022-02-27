@@ -1,0 +1,635 @@
+{
+  "sections": [
+    {
+      "title": "Kognitive Funktionen",
+      "questions": [
+        {
+          "id": "PC2r",
+          "topic": "In den letzten 7 Tagen:",
+          "title": "Ich war langsam beim Denken.",
+          "choices": [
+            "Nie",
+            "Selten (einmal)",
+            "Manchmal (zwei- oder dreimal)",
+            "Oft (ungefähr einmal täglich)",
+            "Sehr oft (mehrmals täglich)"
+          ],
+          "points": [5, 4, 3, 2, 1]
+        },
+        {
+          "id": "PC35r",
+          "topic": "In den letzten 7 Tagen:",
+          "title": "Es kam mir so vor, als ob mein Gehirn nicht so gut wie sonst funktionierte.",
+          "choices": [
+            "Nie",
+            "Selten (einmal)",
+            "Manchmal (zwei- oder dreimal)",
+            "Oft (ungefähr einmal täglich)",
+            "Sehr oft (mehrmals täglich)"
+          ],
+          "points": [5, 4, 3, 2, 1]
+        },
+        {
+          "id": "PC36r",
+          "topic": "In den letzten 7 Tagen:",
+          "title": "Ich musste mir größere Mühe geben als sonst, um den Überblick über das zu bewahren, womit ich gerade beschäftigt war.",
+          "choices": [
+            "Nie",
+            "Selten (einmal)",
+            "Manchmal (zwei- oder dreimal)",
+            "Oft (ungefähr einmal täglich)",
+            "Sehr oft (mehrmals täglich)"
+          ],
+          "points": [5, 4, 3, 2, 1]
+        },
+        {
+          "id": "PC42r",
+          "topic": "In den letzten 7 Tagen:",
+          "title": "Ich hatte Schwierigkeiten, zwischen verschiedenen Aktivitäten, die ein gewisses Nachdenken erfordern, hin und her zu wechseln.",
+          "choices": [
+            "Nie",
+            "Selten (einmal)",
+            "Manchmal (zwei- oder dreimal)",
+            "Oft (ungefähr einmal täglich)",
+            "Sehr oft (mehrmals täglich)"
+          ],
+          "points": [5, 4, 3, 2, 1]
+        }
+      ]
+    },
+    {
+      "title": "Körperliche Funktionsfähigkeit",
+      "questions": [
+        {
+          "id": "PFA11",
+          "title": "Können Sie Hausarbeiten erledigen, z. B. Staubsaugen oder Gartenarbeit?",
+          "choices": [
+            "Ohne jede Schwierigkeiten",
+            "Mit geringen Schwierigkeiten",
+            "Mit einigen Schwierigkeiten",
+            "Mit großen Schwierigkeiten",
+            "Kann ich gar nicht"
+          ],
+          "points": [5, 4, 3, 2, 1]
+        },
+        {
+          "id": "PFA21",
+          "title": "Können Sie mit normaler Geschwindigkeit Treppen hoch- und runtergehen?",
+          "choices": [
+            "Ohne jede Schwierigkeiten",
+            "Mit geringen Schwierigkeiten",
+            "Mit einigen Schwierigkeiten",
+            "Mit großen Schwierigkeiten",
+            "Kann ich gar nicht"
+          ],
+          "points": [5, 4, 3, 2, 1]
+        },
+        {
+          "id": "PFA23",
+          "title": "Können Sie mindestens 15 Minuten lang spazieren gehen?",
+          "choices": [
+            "Ohne jede Schwierigkeiten",
+            "Mit geringen Schwierigkeiten",
+            "Mit einigen Schwierigkeiten",
+            "Mit großen Schwierigkeiten",
+            "Kann ich gar nicht"
+          ],
+          "points": [5, 4, 3, 2, 1]
+        },
+        {
+          "id": "PFA53",
+          "title": "Können Sie Besorgungen machen und einkaufen gehen?",
+          "choices": [
+            "Ohne jede Schwierigkeiten",
+            "Mit geringen Schwierigkeiten",
+            "Mit einigen Schwierigkeiten",
+            "Mit großen Schwierigkeiten",
+            "Kann ich gar nicht"
+          ],
+          "points": [5, 4, 3, 2, 1]
+        }
+      ]
+    },
+    {
+      "title": "Emotionale Belastung – Angst",
+      "questions": [
+        {
+          "id": "EDANX01",
+          "topic": "In den letzten 7 Tagen:",
+          "title": "Ich fürchtete mich.",
+          "choices": [
+            "Nie",
+            "Selten",
+            "Manchmal",
+            "Oft",
+            "Immer"
+          ],
+          "points": [1, 2, 3, 4, 5]
+        },
+        {
+          "id": "EDANX40",
+          "topic": "In den letzten 7 Tagen:",
+          "title": "Ich fand es schwer, auf etwas anderes zu achten als auf meine Angst.",
+          "choices": [
+            "Nie",
+            "Selten",
+            "Manchmal",
+            "Oft",
+            "Immer"
+          ],
+          "points": [1, 2, 3, 4, 5]
+        },
+        {
+          "id": "EDANX41",
+          "topic": "In den letzten 7 Tagen:",
+          "title": "Meine Sorgen haben mich überwältigt.",
+          "choices": [
+            "Nie",
+            "Selten",
+            "Manchmal",
+            "Oft",
+            "Immer"
+          ],
+          "points": [1, 2, 3, 4, 5]
+        },
+        {
+          "id": "EDANX53",
+          "topic": "In den letzten 7 Tagen:",
+          "title": "Ich fühlte mich unruhig.",
+          "choices": [
+            "Nie",
+            "Selten",
+            "Manchmal",
+            "Oft",
+            "Immer"
+          ],
+          "points": [1, 2, 3, 4, 5]
+        }
+      ]
+    },
+    {
+      "title": "Emotionale Belastung – Depressivität",
+      "questions": [
+        {
+          "id": "EDDEP04",
+          "topic": "In den letzten 7 Tagen:",
+          "title": "Ich fühlte mich wertlos.",
+          "choices": [
+            "Nie",
+            "Selten",
+            "Manchmal",
+            "Oft",
+            "Immer"
+          ],
+          "points": [1, 2, 3, 4, 5]
+        },
+        {
+          "id": "EDDEP06",
+          "topic": "In den letzten 7 Tagen:",
+          "title": "Ich fühlte mich hilflos.",
+          "choices": [
+            "Nie",
+            "Selten",
+            "Manchmal",
+            "Oft",
+            "Immer"
+          ],
+          "points": [1, 2, 3, 4, 5]
+        },
+        {
+          "id": "EDDEP29",
+          "topic": "In den letzten 7 Tagen:",
+          "title": "Ich fühlte mich niedergeschlagen.",
+          "choices": [
+            "Nie",
+            "Selten",
+            "Manchmal",
+            "Oft",
+            "Immer"
+          ],
+          "points": [1, 2, 3, 4, 5]
+        },
+        {
+          "id": "EDDEP41",
+          "topic": "In den letzten 7 Tagen:",
+          "title": "Ich fühlte mich hoffnungslos.",
+          "choices": [
+            "Nie",
+            "Selten",
+            "Manchmal",
+            "Oft",
+            "Immer"
+          ],
+          "points": [1, 2, 3, 4, 5]
+        }
+      ]
+    },
+    {
+      "title": "Erschöpfung",
+      "questions": [
+        {
+          "id": "HI7",
+          "topic": "In den letzten 7 Tagen:",
+          "title": "Ich bin erschöpft.",
+          "choices": [
+            "Überhaupt nicht",
+            "Ein wenig",
+            "Mäßig",
+            "Ziemlich",
+            "Sehr"
+          ],
+          "points": [1, 2, 3, 4, 5]
+        },
+        {
+          "id": "AN3",
+          "topic": "In den letzten 7 Tagen:",
+          "title": "Es fällt mir schwer etwas anzufangen, weil ich müde bin.",
+          "choices": [
+            "Überhaupt nicht",
+            "Ein wenig",
+            "Mäßig",
+            "Ziemlich",
+            "Sehr"
+          ],
+          "points": [1, 2, 3, 4, 5]
+        },
+        {
+          "id": "FATEXP41",
+          "topic": "In den letzten 7 Tagen:",
+          "title": "Wie ausgelaugt fühlten Sie sich im Allgemeinen?",
+          "choices": [
+            "Überhaupt nicht",
+            "Ein wenig",
+            "Mäßig",
+            "Ziemlich",
+            "Sehr"
+          ],
+          "points": [1, 2, 3, 4, 5]
+        },
+        {
+          "id": "FATEXP40",
+          "topic": "In den letzten 7 Tagen:",
+          "title": "Wie erschöpft waren Sie im Allgemeinen?",
+          "choices": [
+            "Überhaupt nicht",
+            "Ein wenig",
+            "Mäßig",
+            "Ziemlich",
+            "Sehr"
+          ],
+          "points": [1, 2, 3, 4, 5]
+        }
+      ]
+    },
+    {
+      "title": "Schlafbeeinträchtigung",
+      "questions": [
+        {
+          "id": "Sleep109",
+          "topic": "In den letzten 7 Tagen:",
+          "title": "Meine Schlafqualität war ...",
+          "choices": [
+            "Sehr schlecht",
+            "Schlecht",
+            "Mäßig",
+            "Gut",
+            "Sehr gut"
+          ],
+          "points": [5, 4, 3, 2, 1]
+        },
+        {
+          "id": "Sleep116",
+          "topic": "In den letzten 7 Tagen:",
+          "title": "Mein Schlaf war erfrischend.",
+          "choices": [
+            "Überhaupt nicht",
+            "Ein wenig",
+            "Mäßig",
+            "Ziemlich",
+            "Sehr"
+          ],
+          "points": [5, 4, 3, 2, 1]
+        },
+        {
+          "id": "Sleep20",
+          "topic": "In den letzten 7 Tagen:",
+          "title": "Ich hatte Schlafprobleme.",
+          "choices": [
+            "Überhaupt nicht",
+            "Ein wenig",
+            "Mäßig",
+            "Ziemlich",
+            "Sehr"
+          ],
+          "points": [1, 2, 3, 4, 5]
+        },
+        {
+          "id": "Sleep44",
+          "topic": "In den letzten 7 Tagen:",
+          "title": "Ich hatte Schwierigkeiten einzuschlafen.",
+          "choices": [
+            "Überhaupt nicht",
+            "Ein wenig",
+            "Mäßig",
+            "Ziemlich",
+            "Sehr"
+          ],
+          "points": [1, 2, 3, 4, 5]
+        }
+      ]
+    },
+    {
+      "title": "Teilhabe an sozialen Rollen und Aktivitäten",
+      "questions": [
+        {
+          "id": "SRPPER11_CaPS",
+          "title": "Es fällt mir schwer, allen meinen regelmäßigen Freizeitaktivitäten mit anderen nachzugehen.",
+          "choices": [
+            "Nie",
+            "Selten",
+            "Manchmal",
+            "Oft",
+            "Immer"
+          ],
+          "points": [5, 4, 3, 2, 1]
+        },
+        {
+          "id": "SRPPER18_CaPS",
+          "title": "Es fällt mir schwer, allen Aktivitäten nachzugehen, die ich mit meiner Familie machen möchte.",
+          "choices": [
+            "Nie",
+            "Selten",
+            "Manchmal",
+            "Oft",
+            "Immer"
+          ],
+          "points": [5, 4, 3, 2, 1]
+        },
+        {
+          "id": "SRPPER23_CaPS",
+          "title": "Es fällt mir schwer, meine gewohnte Arbeit zu erledigen (einschließlich der Arbeit zu Hause).",
+          "choices": [
+            "Nie",
+            "Selten",
+            "Manchmal",
+            "Oft",
+            "Immer"
+          ],
+          "points": [5, 4, 3, 2, 1]
+        },
+        {
+          "id": "SRPPER46 _CaPS",
+          "title": "Es fällt mir schwer, allen Aktivitäten nachzugehen, die ich mit meinen Freunden machen möchte.",
+          "choices": [
+            "Nie",
+            "Selten",
+            "Manchmal",
+            "Oft",
+            "Immer"
+          ],
+          "points": [5, 4, 3, 2, 1]
+        }
+      ]
+    },
+    {
+      "title": "Beeinträchtigung durch Schmerzen",
+      "questions": [
+        {
+          "id": "PAININ9",
+          "topic": "In den letzten 7 Tagen:",
+          "title": "Wie sehr beeinträchtigen Schmerzen Ihre Alltagsaktivitäten?",
+          "choices": [
+            "Überhaupt nicht",
+            "Ein wenig",
+            "Mäßig",
+            "Ziemlich",
+            "Sehr"
+          ],
+          "points": [1, 2, 3, 4, 5]
+        },
+        {
+          "id": "PAININ22",
+          "topic": "In den letzten 7 Tagen:",
+          "title": "Wie sehr beeinträchtigen Schmerzen Ihre häuslichen Tätigkeiten?",
+          "choices": [
+            "Überhaupt nicht",
+            "Ein wenig",
+            "Mäßig",
+            "Ziemlich",
+            "Sehr"
+          ],
+          "points": [1, 2, 3, 4, 5]
+        },
+        {
+          "id": "PAININ31",
+          "topic": "In den letzten 7 Tagen:",
+          "title": "Wie sehr beeinträchtigen Schmerzen Ihre Fähigkeiten, an sozialen Aktivitäten teilzunehmen?",
+          "choices": [
+            "Überhaupt nicht",
+            "Ein wenig",
+            "Mäßig",
+            "Ziemlich",
+            "Sehr"
+          ],
+          "points": [1, 2, 3, 4, 5]
+        },
+        {
+          "id": "PAININ34",
+          "topic": "In den letzten 7 Tagen:",
+          "title": "Wie sehr beeinträchtigen Schmerzen Sie bei Ihrer Hausarbeit?",
+          "choices": [
+            "Überhaupt nicht",
+            "Ein wenig",
+            "Mäßig",
+            "Ziemlich",
+            "Sehr"
+          ],
+          "points": [1, 2, 3, 4, 5]
+        }
+      ]
+    },
+    {
+      "title": "Schmerzintensität",
+      "questions": [
+        {
+          "id": "Global07",
+          "topic": "In den letzten 7 Tagen:",
+          "title": "Wie würden Sie Ihre Schmerzen im Allgemeinen einschätzen?",
+          "choices": [
+            "Keine Schmerzen",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "Schlimmste vorstellbare Schmerzen"
+          ],
+          "points": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+        },
+        {
+          "id": "PainNow",
+          "topic": "In diesem Moment:",
+          "title": "Wie würden Sie Ihre Schmerzen im Moment einschätzen?",
+          "choices": [
+            "Keine Schmerzen",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "Schlimmste vorstellbare Schmerzen"
+          ],
+          "points": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+        },
+        {
+          "id": "NPPain1",
+          "topic": "In den letzten 7 Tagen:",
+          "title": "Wie hat sich Ihr Schmerz angefüht?",
+          "optional": "pieksend (wie tausend Nadeln)",
+          "choices": [
+            "Überhaupt nicht",
+            "Ein wenig",
+            "Mäßig",
+            "Ziemlich",
+            "Sehr"
+          ],
+          "points": [1, 2, 3, 4, 5]
+        },
+        {
+          "id": "NPPain2",
+          "topic": "In den letzten 7 Tagen:",
+          "title": "Wie hat sich Ihr Schmerz angefüht?",
+          "optional": "kribbelnd (wie Ameisenlaufen)",
+          "choices": [
+            "Überhaupt nicht",
+            "Ein wenig",
+            "Mäßig",
+            "Ziemlich",
+            "Sehr"
+          ],
+          "points": [1, 2, 3, 4, 5]
+        },
+        {
+          "id": "NPPain3",
+          "topic": "In den letzten 7 Tagen:",
+          "title": "Wie hat sich Ihr Schmerz angefüht?",
+          "optional": "stechend",
+          "choices": [
+            "Überhaupt nicht",
+            "Ein wenig",
+            "Mäßig",
+            "Ziemlich",
+            "Sehr"
+          ],
+          "points": [1, 2, 3, 4, 5]
+        },
+        {
+          "id": "NPPain4",
+          "topic": "In den letzten 7 Tagen:",
+          "title": "Wie hat sich Ihr Schmerz angefüht?",
+          "optional": "elektrisierend",
+          "choices": [
+            "Überhaupt nicht",
+            "Ein wenig",
+            "Mäßig",
+            "Ziemlich",
+            "Sehr"
+          ],
+          "points": [1, 2, 3, 4, 5]
+        },
+        {
+          "id": "NPPain5",
+          "topic": "In den letzten 7 Tagen:",
+          "title": "Wie hat sich Ihr Schmerz angefüht?",
+          "optional": "taub",
+          "choices": [
+            "Überhaupt nicht",
+            "Ein wenig",
+            "Mäßig",
+            "Ziemlich",
+            "Sehr"
+          ],
+          "points": [1, 2, 3, 4, 5]
+        },
+        {
+          "id": "NCPain1",
+          "topic": "In den letzten 7 Tagen:",
+          "title": "Wie hat sich Ihr Schmerz angefüht?",
+          "optional": "wund",
+          "choices": [
+            "Überhaupt nicht",
+            "Ein wenig",
+            "Mäßig",
+            "Ziemlich",
+            "Sehr"
+          ],
+          "points": [1, 2, 3, 4, 5]
+        },
+        {
+          "id": "NCPain2",
+          "topic": "In den letzten 7 Tagen:",
+          "title": "Wie hat sich Ihr Schmerz angefüht?",
+          "optional": "empfindlich",
+          "choices": [
+            "Überhaupt nicht",
+            "Ein wenig",
+            "Mäßig",
+            "Ziemlich",
+            "Sehr"
+          ],
+          "points": [1, 2, 3, 4, 5]
+        },
+        {
+          "id": "NCPain3",
+          "topic": "In den letzten 7 Tagen:",
+          "title": "Wie hat sich Ihr Schmerz angefüht?",
+          "optional": "dumpf",
+          "choices": [
+            "Überhaupt nicht",
+            "Ein wenig",
+            "Mäßig",
+            "Ziemlich",
+            "Sehr"
+          ],
+          "points": [1, 2, 3, 4, 5]
+        },
+        {
+          "id": "NCPain4",
+          "topic": "In den letzten 7 Tagen:",
+          "title": "Wie hat sich Ihr Schmerz angefüht?",
+          "optional": "tiefsitzend",
+          "choices": [
+            "Überhaupt nicht",
+            "Ein wenig",
+            "Mäßig",
+            "Ziemlich",
+            "Sehr"
+          ],
+          "points": [1, 2, 3, 4, 5]
+        },
+        {
+          "id": "NCPain5",
+          "topic": "In den letzten 7 Tagen:",
+          "title": "Wie hat sich Ihr Schmerz angefüht?",
+          "optional": "gleichbleibend",
+          "choices": [
+            "Überhaupt nicht",
+            "Ein wenig",
+            "Mäßig",
+            "Ziemlich",
+            "Sehr"
+          ],
+          "points": [1, 2, 3, 4, 5]
+        }
+      ]
+    }
+  ]
+}
