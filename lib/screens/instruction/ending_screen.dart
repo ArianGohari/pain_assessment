@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart' as material;
 import 'package:painlab_app/screens/components/custom_button.dart';
@@ -14,6 +16,11 @@ class EndingScreen extends StatelessWidget {
     required this.subtitle,
     required this.instruction,
   }) : super(key: key);
+
+  void _onClick() {
+    WorkflowManager().export();
+    exit(0);
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -65,7 +72,7 @@ class EndingScreen extends StatelessWidget {
                     ),
                     CustomButton(
                       text: 'Beenden',
-                      onPressed: WorkflowManager().export,
+                      onPressed: _onClick,
                     ),
                   ],
                 )

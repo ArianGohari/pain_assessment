@@ -194,7 +194,7 @@ class WorkflowManager {
         backEnabled: true,
         title: "Konzentrationsaufgabe - Anleitung",
         subtitle: "Konzentrationsaufgabe:",
-        instruction: "In der folgenden Aufgabe sehen Sie 8 Quadrate. Von diesen 8 Quadraten werden einzelne nacheinander blau aufleuchten. Ihre Aufgabe wird es sein, die Quadrate in der umgekehrten Reihenfolge (rückwärts) anzutippen.\n\nIm Folgenden sehen Sie zwei Beispiele und deren korrekte Bearbeitung. Danach bitten wir Sie, die Aufgaben zu bearbeiten! Hierbei werden die Aufgaben immer länger und schwieriger. Viel Erfolg!",
+        instruction: "In der folgenden Aufgabe sehen Sie 8 Quadrate. Von diesen 8 Quadraten werden einzelne nacheinander blau aufleuchten. Ihre Aufgabe wird es sein, die Quadrate in der umgekehrten Reihenfolge (rückwärts) anzutippen.\n\nIm Folgenden sehen Sie zwei Beispiele und deren korrekte Bearbeitung. Danach bitten wir Sie, die Aufgaben zu bearbeiten. Hierbei werden die Aufgaben immer länger und schwieriger. Viel Erfolg!",
       ),
       const InstructionScreen(
         title: "Beispiel",
@@ -220,7 +220,7 @@ class WorkflowManager {
       const EndingScreen(
         title: "Abschluss",
         subtitle: "Vielen Dank!",
-        instruction: "Die Untersuchung ist jetzt beendet. Das haben Sie ausgezeichnet gemacht. Bitte geben Sie das iPad bei unserem Personal ab.",
+        instruction: "Die Untersuchung ist jetzt beendet. Bitte geben Sie das iPad bei unserem Personal ab.",
       ),
     ]);
 

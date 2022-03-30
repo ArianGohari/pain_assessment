@@ -200,7 +200,7 @@ class _MultipleChoiceScreenState extends State<MultipleChoiceScreen> {
                     const SizedBox(height: 16,),
                     if(noSelection)
                       const Text(
-                        "Bitte wählen Sie eine Antwort aus",
+                        'Bitte wählen Sie eine Antwort aus. Wenn Sie die Frage tatsächlich nicht beantworten möchten, tippen Sie auf "Weiter".',
                         style: TextStyle(
                           color: CupertinoColors.systemRed,
                           fontWeight: FontWeight.w700,
