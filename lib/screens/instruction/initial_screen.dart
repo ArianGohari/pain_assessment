@@ -5,10 +5,10 @@ import 'package:painlab_app/screens/components/custom_button.dart';
 import 'package:painlab_app/services/workflow_manager.dart';
 
 class InitialScreen extends StatefulWidget {
+  const InitialScreen({Key? key}) : super(key: key);
+
   @override
   State<StatefulWidget> createState() => _InitialScreenState();
-
-
 }
 
 class _InitialScreenState extends State<InitialScreen> {
